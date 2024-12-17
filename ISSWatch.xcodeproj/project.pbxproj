@@ -13,9 +13,24 @@
 		522567772D09C5A500DCFE69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522567762D09C5A500DCFE69 /* Preview Assets.xcassets */; };
 		522567792D09C5A500DCFE69 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522567782D09C5A500DCFE69 /* Persistence.swift */; };
 		5225677C2D09C5A500DCFE69 /* ISSWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5225677A2D09C5A500DCFE69 /* ISSWatch.xcdatamodeld */; };
-		522567862D09C5A500DCFE69 /* ISSWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522567852D09C5A500DCFE69 /* ISSWatchTests.swift */; };
 		522567902D09C5A500DCFE69 /* ISSWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225678F2D09C5A500DCFE69 /* ISSWatchUITests.swift */; };
 		522567922D09C5A500DCFE69 /* ISSWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522567912D09C5A500DCFE69 /* ISSWatchUITestsLaunchTests.swift */; };
+		522567A02D09C69500DCFE69 /* ISSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225679F2D09C69500DCFE69 /* ISSMapView.swift */; };
+		52344A602D118D5C000B9A18 /* PositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A5F2D118D5C000B9A18 /* PositionProvider.swift */; };
+		52344A622D119003000B9A18 /* MockPositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A612D119003000B9A18 /* MockPositionProvider.swift */; };
+		52344A632D119031000B9A18 /* PositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A5F2D118D5C000B9A18 /* PositionProvider.swift */; };
+		52344A652D119056000B9A18 /* ISSPositionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A642D119056000B9A18 /* ISSPositionProvider.swift */; };
+		52344A662D1190AC000B9A18 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E92D0A3D3E0001AE99 /* Position.swift */; };
+		52344A672D119185000B9A18 /* ISSMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */; };
+		52344A692D1191BF000B9A18 /* ISSMapViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A682D1191BF000B9A18 /* ISSMapViewModelTests.swift */; };
+		52344A6B2D11C0E9000B9A18 /* ISSAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A6A2D11C0E9000B9A18 /* ISSAnnotation.swift */; };
+		52344A6D2D11C11B000B9A18 /* ISSAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A6C2D11C11B000B9A18 /* ISSAnnotationView.swift */; };
+		52344A6F2D11C1AE000B9A18 /* AssetsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52344A6E2D11C1AE000B9A18 /* AssetsInfo.swift */; };
+		52344A732D11C6A7000B9A18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52344A762D11C6A7000B9A18 /* Localizable.strings */; };
+		52344A742D11C6A7000B9A18 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52344A762D11C6A7000B9A18 /* Localizable.strings */; };
+		5273C2E62D0A27510001AE99 /* ISSMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */; };
+		5273C2E82D0A3D090001AE99 /* ISSLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E72D0A3D090001AE99 /* ISSLocationResponse.swift */; };
+		5273C2EA2D0A3D3E0001AE99 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E92D0A3D3E0001AE99 /* Position.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +59,25 @@
 		522567782D09C5A500DCFE69 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5225677B2D09C5A500DCFE69 /* ISSWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ISSWatch.xcdatamodel; sourceTree = "<group>"; };
 		522567812D09C5A500DCFE69 /* ISSWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		522567852D09C5A500DCFE69 /* ISSWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSWatchTests.swift; sourceTree = "<group>"; };
 		5225678B2D09C5A500DCFE69 /* ISSWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5225678F2D09C5A500DCFE69 /* ISSWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSWatchUITests.swift; sourceTree = "<group>"; };
 		522567912D09C5A500DCFE69 /* ISSWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5225679F2D09C69500DCFE69 /* ISSMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSMapView.swift; sourceTree = "<group>"; };
+		52344A5E2D10B5DE000B9A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52344A5F2D118D5C000B9A18 /* PositionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionProvider.swift; sourceTree = "<group>"; };
+		52344A612D119003000B9A18 /* MockPositionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPositionProvider.swift; sourceTree = "<group>"; };
+		52344A642D119056000B9A18 /* ISSPositionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPositionProvider.swift; sourceTree = "<group>"; };
+		52344A682D1191BF000B9A18 /* ISSMapViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSMapViewModelTests.swift; sourceTree = "<group>"; };
+		52344A6A2D11C0E9000B9A18 /* ISSAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSAnnotation.swift; sourceTree = "<group>"; };
+		52344A6C2D11C11B000B9A18 /* ISSAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSAnnotationView.swift; sourceTree = "<group>"; };
+		52344A6E2D11C1AE000B9A18 /* AssetsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsInfo.swift; sourceTree = "<group>"; };
+		52344A752D11C6A7000B9A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52344A772D11C773000B9A18 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52344A782D11C77D000B9A18 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52344A792D11C786000B9A18 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSMapViewModel.swift; sourceTree = "<group>"; };
+		5273C2E72D0A3D090001AE99 /* ISSLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSLocationResponse.swift; sourceTree = "<group>"; };
+		5273C2E92D0A3D3E0001AE99 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +128,14 @@
 		5225676E2D09C5A300DCFE69 /* ISSWatch */ = {
 			isa = PBXGroup;
 			children = (
+				52344A5E2D10B5DE000B9A18 /* Info.plist */,
+				52640AC52D0DC9D9008924A0 /* ISSPositionProvider */,
+				5225679E2D09C65E00DCFE69 /* Map */,
 				5225676F2D09C5A300DCFE69 /* ISSWatchApp.swift */,
 				522567712D09C5A300DCFE69 /* ContentView.swift */,
 				522567732D09C5A500DCFE69 /* Assets.xcassets */,
+				52344A6E2D11C1AE000B9A18 /* AssetsInfo.swift */,
+				52344A762D11C6A7000B9A18 /* Localizable.strings */,
 				522567782D09C5A500DCFE69 /* Persistence.swift */,
 				5225677A2D09C5A500DCFE69 /* ISSWatch.xcdatamodeld */,
 				522567752D09C5A500DCFE69 /* Preview Content */,
@@ -119,7 +154,8 @@
 		522567842D09C5A500DCFE69 /* ISSWatchTests */ = {
 			isa = PBXGroup;
 			children = (
-				522567852D09C5A500DCFE69 /* ISSWatchTests.swift */,
+				52344A612D119003000B9A18 /* MockPositionProvider.swift */,
+				52344A682D1191BF000B9A18 /* ISSMapViewModelTests.swift */,
 			);
 			path = ISSWatchTests;
 			sourceTree = "<group>";
@@ -131,6 +167,28 @@
 				522567912D09C5A500DCFE69 /* ISSWatchUITestsLaunchTests.swift */,
 			);
 			path = ISSWatchUITests;
+			sourceTree = "<group>";
+		};
+		5225679E2D09C65E00DCFE69 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5225679F2D09C69500DCFE69 /* ISSMapView.swift */,
+				5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */,
+				52344A6A2D11C0E9000B9A18 /* ISSAnnotation.swift */,
+				52344A6C2D11C11B000B9A18 /* ISSAnnotationView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		52640AC52D0DC9D9008924A0 /* ISSPositionProvider */ = {
+			isa = PBXGroup;
+			children = (
+				5273C2E72D0A3D090001AE99 /* ISSLocationResponse.swift */,
+				5273C2E92D0A3D3E0001AE99 /* Position.swift */,
+				52344A5F2D118D5C000B9A18 /* PositionProvider.swift */,
+				52344A642D119056000B9A18 /* ISSPositionProvider.swift */,
+			);
+			path = ISSPositionProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +277,9 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
+				es,
+				fr,
 			);
 			mainGroup = 522567632D09C5A300DCFE69;
 			productRefGroup = 5225676D2D09C5A300DCFE69 /* Products */;
@@ -238,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				522567772D09C5A500DCFE69 /* Preview Assets.xcassets in Resources */,
+				52344A732D11C6A7000B9A18 /* Localizable.strings in Resources */,
 				522567742D09C5A500DCFE69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52344A742D11C6A7000B9A18 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +326,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5273C2EA2D0A3D3E0001AE99 /* Position.swift in Sources */,
+				52344A6F2D11C1AE000B9A18 /* AssetsInfo.swift in Sources */,
 				522567792D09C5A500DCFE69 /* Persistence.swift in Sources */,
+				5273C2E62D0A27510001AE99 /* ISSMapViewModel.swift in Sources */,
+				522567A02D09C69500DCFE69 /* ISSMapView.swift in Sources */,
 				522567722D09C5A300DCFE69 /* ContentView.swift in Sources */,
+				52344A652D119056000B9A18 /* ISSPositionProvider.swift in Sources */,
+				52344A6B2D11C0E9000B9A18 /* ISSAnnotation.swift in Sources */,
+				52344A6D2D11C11B000B9A18 /* ISSAnnotationView.swift in Sources */,
+				52344A602D118D5C000B9A18 /* PositionProvider.swift in Sources */,
 				522567702D09C5A300DCFE69 /* ISSWatchApp.swift in Sources */,
 				5225677C2D09C5A500DCFE69 /* ISSWatch.xcdatamodeld in Sources */,
+				5273C2E82D0A3D090001AE99 /* ISSLocationResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522567862D09C5A500DCFE69 /* ISSWatchTests.swift in Sources */,
+				52344A692D1191BF000B9A18 /* ISSMapViewModelTests.swift in Sources */,
+				52344A622D119003000B9A18 /* MockPositionProvider.swift in Sources */,
+				52344A662D1190AC000B9A18 /* Position.swift in Sources */,
+				52344A632D119031000B9A18 /* PositionProvider.swift in Sources */,
+				52344A672D119185000B9A18 /* ISSMapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,11 +378,26 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		52344A762D11C6A7000B9A18 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52344A752D11C6A7000B9A18 /* en */,
+				52344A772D11C773000B9A18 /* pl */,
+				52344A782D11C77D000B9A18 /* es */,
+				52344A792D11C786000B9A18 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		522567932D09C5A500DCFE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -367,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -428,6 +520,7 @@
 				DEVELOPMENT_TEAM = 9AM93CVRBC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ISSWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +550,7 @@
 				DEVELOPMENT_TEAM = 9AM93CVRBC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ISSWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
