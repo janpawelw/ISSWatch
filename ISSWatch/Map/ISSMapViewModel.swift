@@ -19,7 +19,7 @@ class ISSMapViewModel: ObservableObject {
     private let timeInterval: TimeInterval
     private var timer: Timer?
     private let positionProvider: PositionProvider
-    private let regionSpan = 1.0
+    private static let regionSpan = 1.0
     
     init(positionProvider: PositionProvider, timeInterval: TimeInterval = 2.0) {
         self.positionProvider = positionProvider
@@ -38,12 +38,13 @@ class ISSMapViewModel: ObservableObject {
     }
     
     private func fetchAndUpdatePosition() {
-        self.positionProvider.fetchPosition { position in
-            DispatchQueue.main.async {
-                self.coordinates = position?.cordinate ?? CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0)
-                self.region = MKCoordinateRegion(
-                    center: self.coordinates,
-                    span: MKCoordinateSpan(latitudeDelta: self.regionSpan, longitudeDelta: self.regionSpan)
+        positionProvider.fetchPosition { position in
+            guard let coordinate = position?.cordinate else { return }
+            DispatchQueue.main.async { [weak self] in
+                self?.coordinates = coordinate
+                self?.region = MKCoordinateRegion(
+                    center: coordinate,
+                    span: MKCoordinateSpan(latitudeDelta: ISSMapViewModel.regionSpan, longitudeDelta: ISSMapViewModel.regionSpan)
                 )
             }
         }
