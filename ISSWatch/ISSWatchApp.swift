@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct ISSWatchApp: App {
     let persistenceController = PersistenceController.shared
+    @StateObject private var appState = AppState()
 
     var body: some Scene {
         WindowGroup {

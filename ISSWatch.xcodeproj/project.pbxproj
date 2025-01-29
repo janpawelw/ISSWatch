@@ -31,6 +31,8 @@
 		5273C2E62D0A27510001AE99 /* ISSMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */; };
 		5273C2E82D0A3D090001AE99 /* ISSLocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E72D0A3D090001AE99 /* ISSLocationResponse.swift */; };
 		5273C2EA2D0A3D3E0001AE99 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273C2E92D0A3D3E0001AE99 /* Position.swift */; };
+		52A0E1E42D4ACA6B00BEA07E /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0E1E32D4ACA6B00BEA07E /* ServicesListView.swift */; };
+		52A0E1E62D4ACC3F00BEA07E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A0E1E52D4ACC3F00BEA07E /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		5273C2E52D0A27510001AE99 /* ISSMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSMapViewModel.swift; sourceTree = "<group>"; };
 		5273C2E72D0A3D090001AE99 /* ISSLocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSLocationResponse.swift; sourceTree = "<group>"; };
 		5273C2E92D0A3D3E0001AE99 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		52A0E1E32D4ACA6B00BEA07E /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
+		52A0E1E52D4ACC3F00BEA07E /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,10 +133,12 @@
 			isa = PBXGroup;
 			children = (
 				52344A5E2D10B5DE000B9A18 /* Info.plist */,
+				52A0E1E22D4ACA2000BEA07E /* ServicesListView */,
 				52640AC52D0DC9D9008924A0 /* ISSPositionProvider */,
 				5225679E2D09C65E00DCFE69 /* Map */,
 				5225676F2D09C5A300DCFE69 /* ISSWatchApp.swift */,
 				522567712D09C5A300DCFE69 /* ContentView.swift */,
+				52A0E1E52D4ACC3F00BEA07E /* AppState.swift */,
 				522567732D09C5A500DCFE69 /* Assets.xcassets */,
 				52344A6E2D11C1AE000B9A18 /* AssetsInfo.swift */,
 				52344A762D11C6A7000B9A18 /* Localizable.strings */,
@@ -189,6 +195,22 @@
 				52344A642D119056000B9A18 /* ISSPositionProvider.swift */,
 			);
 			path = ISSPositionProvider;
+			sourceTree = "<group>";
+		};
+		52A0E1E22D4ACA2000BEA07E /* ServicesListView */ = {
+			isa = PBXGroup;
+			children = (
+				52A0E1E72D4AD8CA00BEA07E /* Model */,
+				52A0E1E32D4ACA6B00BEA07E /* ServicesListView.swift */,
+			);
+			path = ServicesListView;
+			sourceTree = "<group>";
+		};
+		52A0E1E72D4AD8CA00BEA07E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,9 +350,11 @@
 			files = (
 				5273C2EA2D0A3D3E0001AE99 /* Position.swift in Sources */,
 				52344A6F2D11C1AE000B9A18 /* AssetsInfo.swift in Sources */,
+				52A0E1E42D4ACA6B00BEA07E /* ServicesListView.swift in Sources */,
 				522567792D09C5A500DCFE69 /* Persistence.swift in Sources */,
 				5273C2E62D0A27510001AE99 /* ISSMapViewModel.swift in Sources */,
 				522567A02D09C69500DCFE69 /* ISSMapView.swift in Sources */,
+				52A0E1E62D4ACC3F00BEA07E /* AppState.swift in Sources */,
 				522567722D09C5A300DCFE69 /* ContentView.swift in Sources */,
 				52344A652D119056000B9A18 /* ISSPositionProvider.swift in Sources */,
 				52344A6B2D11C0E9000B9A18 /* ISSAnnotation.swift in Sources */,
